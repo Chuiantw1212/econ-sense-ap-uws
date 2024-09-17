@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "@types/uws": "^0.13.6",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.48.0"
+  },
+  "name": "econ-sense-ap-uws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gcloud config configurations activate econ && nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
